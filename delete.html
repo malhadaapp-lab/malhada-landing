@@ -102,6 +102,8 @@
     font-size: 0.92rem;
   }
   .contact strong { color: var(--ink); }
+  .lang-link { display:block; text-align:center; font-size:0.85rem; margin:-24px 0 28px; }
+  .en { margin-top: 44px; }
   @media (max-width: 560px) {
     .card { padding: 32px 20px; }
     h1 { font-size: 1.35rem; }
@@ -114,8 +116,9 @@
 <div class="wrap">
   <div class="card">
     <h1>데이터 삭제 요청 안내</h1>
-    <p class="sub">최종 개정일: 2026년 7월 14일</p>
-    <p class="appline">앱: 말하다(Malhada) · 개발자: Speechon (Speechonstudio)</p>
+    <p class="sub">최종 개정일: 2026년 9월 27일</p>
+    <p class="appline">앱: 말하다(Malhada) · 개발자: Speechon Studio (스피치온스튜디오 / Speechonstudio)</p>
+    <a class="lang-link" href="#en" lang="en">English: How to delete your data ↓</a>
 
     <p class="lead">
       본 페이지는 음성 자가 훈련 앱 <strong>‘말하다(Malhada)’</strong>에서 이용자의 데이터를
@@ -129,6 +132,7 @@
       (localStorage · IndexedDB)에만 저장됩니다. 다음 중 한 가지 방법으로 즉시 삭제할 수 있습니다.
     </p>
     <ol>
+      <li><strong>앱 내 전체 초기화:</strong> 앱의 <em>설정 &gt; 전체 초기화</em>를 선택하면 기기에 저장된 모든 훈련 데이터가 삭제됩니다.</li>
       <li><strong>앱 삭제(제거):</strong> 홈 화면 또는 설정에서 ‘말하다’ 앱을 삭제하면 기기 내 데이터가 함께 제거됩니다.</li>
       <li>
         <strong>앱 데이터 삭제:</strong> 안드로이드 <em>설정 &gt; 애플리케이션(앱) &gt; 말하다 &gt;
@@ -182,8 +186,13 @@
           <td>삭제 요청 시 처리하며, 요청이 없는 경우 <strong>최대 14개월 후 자동 만료·삭제</strong>됩니다.</td>
         </tr>
         <tr>
-          <td>구독 · 결제 상태 기록</td>
-          <td>Google Play 및 결제 관리 서비스</td>
+          <td>광고 식별자 · IP 주소(대략적 위치 추정) · 앱 상호작용 · 진단 정보</td>
+          <td>Google AdMob (국외 서버)</td>
+          <td>무료 이용 시 광고 게재에 사용됩니다. 기기의 <em>설정 &gt; Google &gt; 광고</em>에서 광고 ID를 재설정·삭제하거나 맞춤 광고를 끌 수 있으며, 그 밖의 정보는 Google 정책에 따라 보관·삭제됩니다.</td>
+        </tr>
+        <tr>
+          <td>구독 · 평생 이용권 결제 상태 기록</td>
+          <td>Google Play 및 RevenueCat(익명 ID)</td>
           <td>운영자 보관 기록은 삭제 요청 시 처리합니다. 단, Google Play의 거래·세무 기록은 관련 법령에 따라 Google이 별도 보관하며 운영자가 삭제할 수 없습니다.</td>
         </tr>
         <tr>
@@ -195,10 +204,27 @@
     </table>
 
     <div class="contact">
-      <p style="margin:0 0 4px;"><strong>말하다(Malhada)</strong> — Speechon (Speechonstudio)</p>
+      <p style="margin:0 0 4px;"><strong>말하다(Malhada)</strong> — Speechon Studio (스피치온스튜디오 / Speechonstudio)</p>
       <p style="margin:0;">문의 및 데이터 삭제 요청: <a href="mailto:malhada.app@gmail.com">malhada.app@gmail.com</a></p>
       <p style="margin:6px 0 0;">자세한 개인정보 처리 방침은 <a href="./privacy.html">개인정보처리방침</a>을 참고해 주세요.</p>
     </div>
+
+    <section class="en" id="en" lang="en">
+      <h2>English: How to delete your data</h2>
+      <p>Malhada does not use accounts. Most data stays on your phone.</p>
+      <ol>
+        <li><strong>On your phone (immediately):</strong> in the app, go to <em>Settings › Delete all data</em>, uninstall the app, or go to Android <em>Settings › Apps › Malhada › Storage › Clear data</em>. If Android backup is on, also delete the app's backup in <em>Settings › Google › Backup</em>.</li>
+        <li><strong>By email:</strong> to delete data held outside your phone, email <a href="mailto:malhada.app@gmail.com">malhada.app@gmail.com</a> with the subject <code>[Data deletion request]</code> and tell us what you want deleted. We reply within 7 business days.</li>
+      </ol>
+      <ul>
+        <li>Practice history, saved recordings and settings: on your phone only; deleted as above.</li>
+        <li>Analytics data (Google Firebase): deleted on request, otherwise after up to 14 months.</li>
+        <li>Advertising ID (Google AdMob): reset or delete it in your phone's settings.</li>
+        <li>Purchase records (Google Play, RevenueCat): our records are deleted on request; Google Play keeps its own transaction records as required by law.</li>
+        <li>Emails you send us: deleted on request.</li>
+      </ul>
+      <p>Developer: Speechon Studio, Republic of Korea. See our <a href="./en/privacy.html">Privacy Policy</a>.</p>
+    </section>
   </div>
 </div>
 </body>
