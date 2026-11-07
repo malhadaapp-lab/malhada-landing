@@ -14,7 +14,9 @@
         "request"
       ],
       "title_mn": "Калгуксү захиалах",
-      "mn": "Уучлаарай, нэг калгуксү өгөөч."
+      "mn": "Уучлаарай, нэг калгуксү өгөөч.",
+      "title_uz": "Kalguksu buyurtma qilish",
+      "uz": "Kechirasiz, bitta kalguksu bering."
     },
     {
       "id": "jp002",
@@ -28,7 +30,9 @@
         "feeling"
       ],
       "title_mn": "Хоолыг магтах",
-      "mn": "Үнэхээр амттай байна!"
+      "mn": "Үнэхээр амттай байна!",
+      "title_uz": "Taomni maqtash",
+      "uz": "Juda mazali ekan!"
     },
     {
       "id": "jp003",
@@ -43,7 +47,9 @@
         "care"
       ],
       "title_mn": "Зүгээр үү? гэж асуух",
-      "mn": "Зүгээр үү?"
+      "mn": "Зүгээр үү?",
+      "title_uz": "«Yaxshimisiz?» deb soʻrash",
+      "uz": "Yaxshimisiz?"
     },
     {
       "id": "jp004",
@@ -57,7 +63,9 @@
         "request"
       ],
       "title_mn": "Халуун ногоог багасгах",
-      "mn": "Халуун ногоог нь бага хийж өгөөч."
+      "mn": "Халуун ногоог нь бага хийж өгөөч.",
+      "title_uz": "Achchiqni kamroq soʻrash",
+      "uz": "Achchigʻini kamroq qilib bering."
     },
     {
       "id": "jp005",
@@ -72,7 +80,9 @@
         "greet"
       ],
       "title_mn": "Удаан уулзаагүй хүнтэй",
-      "mn": "Их санасан шүү (удаан уулзаагүй найзтайгаа уулзахад)"
+      "mn": "Их санасан шүү (удаан уулзаагүй найзтайгаа уулзахад)",
+      "title_uz": "Uzoq koʻrishmagan odam bilan",
+      "uz": "Juda sogʻindim (uzoq koʻrishmagan doʻstni uchratganda)"
     },
     {
       "id": "jp006",
@@ -87,7 +97,9 @@
         "care"
       ],
       "title_mn": "Ер бусын байгаа найздаа",
-      "mn": "Гэнэт яасан бэ? (ер бусын байгаа найздаа)"
+      "mn": "Гэнэт яасан бэ? (ер бусын байгаа найздаа)",
+      "title_uz": "Gʻalati koʻringan doʻstga",
+      "uz": "Birdan senga nima boʻldi? (odatdagidek boʻlmagan doʻstga)"
     },
     {
       "id": "jp007",
@@ -103,7 +115,9 @@
         "ask"
       ],
       "title_mn": "Мэндчилгээ болгон хэлэх үг",
-      "mn": "Хоолоо идсэн үү? (дотны хүндээ · мэндчилгээ болгон)"
+      "mn": "Хоолоо идсэн үү? (дотны хүндээ · мэндчилгээ болгон)",
+      "title_uz": "Salomlashish oʻrnida aytiladigan gap",
+      "uz": "Ovqatlandingmi? (yaqin odamga · salomlashish oʻrnida)"
     }
   ]
 }
