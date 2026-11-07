@@ -40,7 +40,7 @@ nav.links{margin-top:24px;font-size:13px;color:var(--muted);display:flex;flex-wr
 <p>Ilovadan foydalanish uchun ism, elektron pochta, telefon raqami kabi sizni aniqlaydigan maʼlumot talab qilinmaydi.</p>
 <ul>
 <li><strong>Mikrofon</strong>: ovoz toni, balandligi, talaffuz va nutq tezligini oʻlchash uchun ishlatiladi. Tahlilning aksariyati telefonda bajariladi. Faqat talaffuz mashqi va «Talaffuz + ovoz balandligi» mashqida nutqni aniqlash uchun tashqariga yuborilishi mumkin (3-boʻlim).</li>
-<li><strong>Ovozingiz qanday ishlatiladi</strong>: mashqdagi ovoz yozuvi <strong>faqat koreyscha talaffuzingizni matnga aylantirish (nutqni aniqlash) uchun</strong> ishlatiladi. Sorito ovoz yozuvlaringizni saqlamaydi. «Talaffuz + ovoz balandligi» mashqida nutqni aniqlaydigan OpenAI (AQSh) ularni suisteʼmolning oldini olish uchun koʻpi bilan 30 kun saqlab, keyin oʻchiradi va sunʼiy intellektni oʻqitishda ishlatmaydi. Talaffuz mashqida nutqni iPhoneʼda Apple, Androidʼda Google aniqlaydi. Ovoz shaxsingizni aniqlash, tanish yoki tasdiqlash uchun ishlatilmaydi va biz <strong>biometrik maʼlumot yigʻmaymiz</strong> (ovoz izi, ovoz namunasi va h.k. yaratilmaydi).</li>
+<li><strong>Ovozingiz qanday ishlatiladi</strong>: mashqdagi ovoz yozuvi <strong>faqat talaffuzni baholash va uni matnga aylantirish (nutqni aniqlash) uchun</strong> ishlatiladi. U soʻzlovchini aniqlash yoki ovoz izi (voiceprint) yaratish uchun ishlatilmaydi. Sorito ovoz yozuvlaringizni saqlamaydi. «Talaffuz + ovoz balandligi» mashqida nutqni aniqlaydigan OpenAI (AQSh) ularni suisteʼmolning oldini olish uchun koʻpi bilan 30 kun saqlab, keyin oʻchiradi va sunʼiy intellektni oʻqitishda ishlatmaydi. Talaffuz mashqida nutqni iPhoneʼda Apple, Androidʼda Google aniqlaydi. Ovoz shaxsingizni aniqlash, tanish yoki tasdiqlash uchun ishlatilmaydi va biz <strong>biometrik maʼlumot yigʻmaymiz</strong> (ovoz izi, ovoz namunasi va h.k. yaratilmaydi). Sorito ovozingizdan foydalanish huquqini (litsenziyani) olmaydi.</li>
 <li><strong>Mashq natijalari, sozlamalar, saqlangan yozuvlar</strong>: faqat telefoningizda saqlanadi. Ilova ularni bizning serverimizga yubormaydi.</li>
 <li><strong>Obuna (Premium) toʻlovi</strong>: toʻlovni App Store yoki Google Play amalga oshiradi. Biz karta maʼlumotlarini olmaymiz. Xaridni tasdiqlash va tiklash uchun RevenueCat anonim ID va xaridlar tarixini qayta ishlaydi.</li>
 <li><strong>Foydalanish statistikasi</strong> (rozilik bergan boʻlsangiz): Google Firebase Analytics ochilgan ekranlar, foydalanilgan mashqlar, ilovani ochish soni va vaqti, qurilma modeli, OT versiyasi, ilova IDʼsi, IP manzildan aniqlangan taxminiy mamlakat kabi maʼlumotlarni oladi. Ovoz va oʻlchov natijalari yuborilmaydi. Saqlash muddati: koʻpi bilan 14 oy.</li>
@@ -68,6 +68,16 @@ nav.links{margin-top:24px;font-size:13px;color:var(--muted);display:flex;flex-wr
 <tr><td>Statistika, reklama</td><td>Google (Firebase, AdMob)</td><td>AQSh va b.</td><td>Qurilma va foydalanish maʼlumotlari</td></tr>
 <tr><td>Xaridlar</td><td>RevenueCat, Apple, Google</td><td>AQSh</td><td>Anonim ID, xaridlar tarixi</td></tr>
 </tbody></table></div>
+<h3>Ovozni qayta ishlovchilar</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Kompaniya</th><th>Maqsad</th><th>Mamlakat</th><th>Saqlash</th></tr></thead>
+<tbody>
+<tr><td>Apple Inc.</td><td>Talaffuz mashqida nutqni aniqlash (iPhone)</td><td>AQSh</td><td>Apple siyosatiga muvofiq</td></tr>
+<tr><td>Google (yoki qurilma ishlab chiqaruvchisining nutqni aniqlash xizmati)</td><td>Talaffuz mashqida nutqni aniqlash (Android)</td><td>AQSh</td><td>Google (yoki ishlab chiqaruvchi) siyosatiga muvofiq</td></tr>
+<tr><td>OpenAI, L.L.C.</td><td>«Talaffuz + ovoz balandligi» mashqida nutqni aniqlash</td><td>AQSh</td><td>Suisteʼmolning oldini olish uchun koʻpi bilan 30 kun, keyin oʻchiriladi; sunʼiy intellektni oʻqitishda ishlatilmaydi</td></tr>
+<tr><td>Google Cloud (bizning uzatuvchi serverimiz)</td><td>Ovozni OpenAIʼga uzatish</td><td>Koreya Respublikasi (Seul)</td><td>Saqlanmaydi (xotirada qayta ishlanib, darhol oʻchiriladi)</td></tr>
+</tbody></table></div>
+<p>Uzatuvchi serverga ovoz va mashqdagi soʻz yuboriladi, OpenAIʼga esa faqat ovoz uzatiladi. Sizni aniqlaydigan maʼlumot qoʻshilmaydi.</p>
 <p>Ilova (uzatuvchi server bilan birga) yuborilgan ovozni saqlamaydi. OpenAI API orqali olingan maʼlumotlarni model oʻqitishda ishlatmaydi va suisteʼmolni nazorat qilish maqsadida koʻpi bilan 30 kun saqlab, oʻchiradi.</p>
 
 <h2>4. Saqlash muddati</h2>
@@ -79,7 +89,7 @@ nav.links{margin-top:24px;font-size:13px;color:var(--muted);display:flex;flex-wr
 </ul>
 
 <h2>5. Sizning huquqlaringiz</h2>
-<p>Siz oʻz maʼlumotlaringizni koʻrish, tuzatish, oʻchirish va roziligingizni qaytarib olish huquqiga egasiz. Telefondagi barcha maʼlumotlarni Sozlamalar → «Barcha maʼlumotlarni oʻchirish» orqali oʻchirishingiz mumkin. Statistika va xaridlar yozuviga oid soʻrovlarni sorito.app@gmail.com manziliga yuboring. Biz 14 kun ichida javob beramiz. Shikoyatni Oʻzbekiston Respublikasining shaxsga doir maʼlumotlar sohasidagi vakolatli davlat organiga ham berishingiz mumkin.</p>
+<p>Siz oʻz maʼlumotlaringizni koʻrish, tuzatish, oʻchirish va roziligingizni qaytarib olish huquqiga egasiz. Mikrofon ruxsatini qurilma sozlamalarida istalgan vaqtda oʻchirib qoʻyishingiz mumkin. Mashq natijalari va saqlangan yozuvlar faqat qurilmangizda saqlanadi: barchasini ilova Sozlamalar → «Barcha maʼlumotlarni oʻchirish» orqali, saqlangan yozuvlarni Sozlamalar → «Saqlangan yozuvlar»dan bittalab oʻchirishingiz mumkin; ilovani oʻchirib tashlaganda ham ular oʻchadi. (Qurilmada iCloud yoki Google zaxira nusxasi yoqilgan boʻlsa, operatsion tizim maʼlumot nusxasini shaxsiy zaxirangizda saqlashi mumkin; uni qurilma sozlamalaridan oʻchiring.) Statistika va xaridlar yozuviga oid soʻrovlarni sorito.app@gmail.com manziliga yuboring. Biz 14 kun ichida javob beramiz. Shikoyatni Oʻzbekiston Respublikasining shaxsga doir maʼlumotlar sohasidagi vakolatli davlat organiga ham berishingiz mumkin.</p>
 
 <h2>6. Maʼlumotlar sizib chiqqan taqdirda</h2>
 <p>Maʼlumotlaringiz sizib chiqqani yoki ruxsatsiz kirish sodir boʻlganini bilishimiz bilan, biz tegishli shaxslarga va qonunda belgilangan davlat organiga darhol xabar beramiz, zararni kamaytirish choralarini koʻramiz va hodisani qayd etamiz. Ilova foydalanuvchi hisobini yaratmagani uchun xabar ilova ichida va ushbu sahifa orqali yetkaziladi.</p>
