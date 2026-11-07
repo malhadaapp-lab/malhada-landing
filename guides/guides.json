@@ -16,7 +16,9 @@
       "title_mn": "Калгуксү захиалах",
       "mn": "Уучлаарай, нэг калгуксү өгөөч.",
       "title_uz": "Kalguksu buyurtma qilish",
-      "uz": "Kechirasiz, bitta kalguksu bering."
+      "uz": "Kechirasiz, bitta kalguksu bering.",
+      "title_ru": "Заказать калгуксу",
+      "ru": "Извините, одну калгуксу, пожалуйста."
     },
     {
       "id": "jp002",
@@ -32,7 +34,9 @@
       "title_mn": "Хоолыг магтах",
       "mn": "Үнэхээр амттай байна!",
       "title_uz": "Taomni maqtash",
-      "uz": "Juda mazali ekan!"
+      "uz": "Juda mazali ekan!",
+      "title_ru": "Похвалить еду",
+      "ru": "Очень вкусно!"
     },
     {
       "id": "jp003",
@@ -49,7 +53,9 @@
       "title_mn": "Зүгээр үү? гэж асуух",
       "mn": "Зүгээр үү?",
       "title_uz": "«Yaxshimisiz?» deb soʻrash",
-      "uz": "Yaxshimisiz?"
+      "uz": "Yaxshimisiz?",
+      "title_ru": "Спросить «Всё в порядке?»",
+      "ru": "Всё в порядке?"
     },
     {
       "id": "jp004",
@@ -65,7 +71,9 @@
       "title_mn": "Халуун ногоог багасгах",
       "mn": "Халуун ногоог нь бага хийж өгөөч.",
       "title_uz": "Achchiqni kamroq soʻrash",
-      "uz": "Achchigʻini kamroq qilib bering."
+      "uz": "Achchigʻini kamroq qilib bering.",
+      "title_ru": "Попросить поменьше острого",
+      "ru": "Сделайте, пожалуйста, не очень остро."
     },
     {
       "id": "jp005",
@@ -82,7 +90,9 @@
       "title_mn": "Удаан уулзаагүй хүнтэй",
       "mn": "Их санасан шүү (удаан уулзаагүй найзтайгаа уулзахад)",
       "title_uz": "Uzoq koʻrishmagan odam bilan",
-      "uz": "Juda sogʻindim (uzoq koʻrishmagan doʻstni uchratganda)"
+      "uz": "Juda sogʻindim (uzoq koʻrishmagan doʻstni uchratganda)",
+      "title_ru": "При встрече после долгой разлуки",
+      "ru": "Я так соскучился! (при встрече с давним другом)"
     },
     {
       "id": "jp006",
@@ -99,7 +109,9 @@
       "title_mn": "Ер бусын байгаа найздаа",
       "mn": "Гэнэт яасан бэ? (ер бусын байгаа найздаа)",
       "title_uz": "Gʻalati koʻringan doʻstga",
-      "uz": "Birdan senga nima boʻldi? (odatdagidek boʻlmagan doʻstga)"
+      "uz": "Birdan senga nima boʻldi? (odatdagidek boʻlmagan doʻstga)",
+      "title_ru": "Другу, который ведёт себя странно",
+      "ru": "Что это с тобой вдруг? (другу, который ведёт себя необычно)"
     },
     {
       "id": "jp007",
@@ -117,7 +129,9 @@
       "title_mn": "Мэндчилгээ болгон хэлэх үг",
       "mn": "Хоолоо идсэн үү? (дотны хүндээ · мэндчилгээ болгон)",
       "title_uz": "Salomlashish oʻrnida aytiladigan gap",
-      "uz": "Ovqatlandingmi? (yaqin odamga · salomlashish oʻrnida)"
+      "uz": "Ovqatlandingmi? (yaqin odamga · salomlashish oʻrnida)",
+      "title_ru": "Фраза вместо приветствия",
+      "ru": "Ты поел? (близкому человеку · вместо приветствия)"
     }
   ]
 }
