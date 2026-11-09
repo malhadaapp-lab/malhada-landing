@@ -151,6 +151,25 @@
       "uz": "Sizni oʻylab tayyorladim.",
       "title_ru": "Что сказать, даря Пеперо",
       "ru": "Вспомнил(а) о тебе и приготовил(а)."
+    },
+    {
+      "id": "jp009",
+      "file": "jp009.m4a",
+      "title": "仕事終わりのあいさつ",
+      "ko": "수고하셨습니다.",
+      "ja": "お疲れ様でした。",
+      "sec": 1,
+      "date": "2026-11-13",
+      "cat": [
+        "greet",
+        "thanks"
+      ],
+      "title_mn": "Ажил дуусахад хэлэх үг",
+      "mn": "Ажилласанд баярлалаа.",
+      "title_uz": "Ish tugaganda aytiladigan soʻz",
+      "uz": "Mehnatingiz uchun rahmat!",
+      "title_ru": "Фраза после работы",
+      "ru": "Спасибо за работу!"
     }
   ]
 }
