@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-09",
   "guides": [
     {
       "id": "jp001",
@@ -132,6 +132,25 @@
       "uz": "Ovqatlandingmi? (yaqin odamga · salomlashish oʻrnida)",
       "title_ru": "Фраза вместо приветствия",
       "ru": "Ты поел? (близкому человеку · вместо приветствия)"
+    },
+    {
+      "id": "jp008",
+      "file": "jp008.m4a",
+      "title": "ペペロデーに渡すときのひと言",
+      "ko": "생각나서 준비했어요.",
+      "ja": "ふと顔が浮かんで、用意したんです",
+      "sec": 3,
+      "date": "2026-11-10",
+      "cat": [
+        "feeling",
+        "care"
+      ],
+      "title_mn": "Пеперо бэлэглэхэд хэлэх үг",
+      "mn": "Чамайг бодоод бэлдлээ.",
+      "title_uz": "Pepero sovgʻa qilganda",
+      "uz": "Sizni oʻylab tayyorladim.",
+      "title_ru": "Что сказать, даря Пеперо",
+      "ru": "Вспомнил(а) о тебе и приготовил(а)."
     }
   ]
 }
