@@ -3,15 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>소리터 Sorito — Google Play</title>
+<title>소리터 Sorito 받기</title>
 <meta name="robots" content="noindex">
-<meta http-equiv="refresh" content="0; url=https://play.google.com/store/apps/details?id=com.malhadaapp.malhada">
-<link rel="canonical" href="https://play.google.com/store/apps/details?id=com.malhadaapp.malhada">
-<script>location.replace("https://play.google.com/store/apps/details?id=com.malhadaapp.malhada");</script>
-<style>body{font-family:system-ui,sans-serif;background:#faf6ef;color:#2b7a6f;display:flex;min-height:100vh;align-items:center;justify-content:center;margin:0;padding:16px;text-align:center}a{color:#2b7a6f}</style>
+<link rel="canonical" href="https://speechonstudio.com/">
+<script>
+// [11-12] 기기별 이동: 아이폰·아이패드 → App Store, 그 밖 → Google Play (assets/site.js 아이폰 판별과 같은 식)
+(function () {
+  var ios = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  location.replace(ios ? 'https://apps.apple.com/app/id6831038450' : 'https://play.google.com/store/apps/details?id=com.malhadaapp.malhada');
+})();
+</script>
+<style>body{font-family:system-ui,sans-serif;background:#faf6ef;color:#2b7a6f;display:flex;min-height:100vh;align-items:center;justify-content:center;margin:0;padding:16px;text-align:center}a{color:#2b7a6f}p{line-height:2}</style>
 </head>
 <body>
-<p>Google Play로 이동합니다…<br>
-<a href="https://play.google.com/store/apps/details?id=com.malhadaapp.malhada">소리터 Sorito 받기</a></p>
+<p>소리터 Sorito 받기 · Get Sorito<br>
+<a href="https://apps.apple.com/app/id6831038450">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.malhadaapp.malhada">Google Play</a></p>
 </body>
 </html>
