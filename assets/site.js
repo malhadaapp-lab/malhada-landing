@@ -1,7 +1,7 @@
 // 소리터 홈페이지 공통 스크립트 (2026-10-29)
 // ① App Store 버튼: 출시되면 아래 주소 한 줄만 채우면 세 페이지 모두 「출시 예정」 → 실제 링크로 바뀜.
 //    아이폰으로 들어온 사람에게는 App Store 버튼을 앞에 보여 줌.
-var SORITO_APPSTORE_URL = '';   // 예: 'https://apps.apple.com/app/id0000000000'
+var SORITO_APPSTORE_URL = 'https://apps.apple.com/app/id6831038450';   // [11-12] iOS 출시(1.1.50)
 
 (function () {
   var ios = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
