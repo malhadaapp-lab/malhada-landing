@@ -170,6 +170,44 @@
       "uz": "Mehnatingiz uchun rahmat!",
       "title_ru": "Фраза после работы",
       "ru": "Спасибо за работу!"
+    },
+    {
+      "id": "jp010",
+      "file": "jp010.m4a",
+      "title": "試験・面接前の応援のひと言",
+      "ko": "노력한 만큼 잘 될 거예요!",
+      "ja": "頑張った分、きっとうまくいきますよ！",
+      "sec": 3,
+      "date": "2026-11-17",
+      "cat": [
+        "care",
+        "feeling"
+      ],
+      "title_mn": "Шалгалт, ярилцлагын өмнө хэлэх үг",
+      "mn": "Хичээсэн хэрээрээ сайн болно доо!",
+      "title_uz": "Imtihon va suhbat oldidan aytiladigan soʻz",
+      "uz": "Mehnatingiz albatta oʻz samarasini beradi!",
+      "title_ru": "Поддержка перед экзаменом",
+      "ru": "Вы так старались — всё обязательно получится!"
+    },
+    {
+      "id": "jp011",
+      "file": "jp011.m4a",
+      "title": "寒い日の会話のきっかけ",
+      "ko": "날씨가 많이 추워졌네요.",
+      "ja": "だいぶ寒くなりましたね。",
+      "sec": 3,
+      "date": "2026-11-20",
+      "cat": [
+        "greet",
+        "care"
+      ],
+      "title_mn": "Хүйтэн өдрийн мэндчилгээ",
+      "mn": "Нэлээд хүйтэн боллоо доо.",
+      "title_uz": "Sovuq kunlardagi salomlashuv",
+      "uz": "Havo ancha sovib qoldi-a.",
+      "title_ru": "Начало разговора в холода",
+      "ru": "Сильно похолодало, да?"
     }
   ]
 }
