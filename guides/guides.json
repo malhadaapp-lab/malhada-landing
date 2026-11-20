@@ -208,6 +208,150 @@
       "uz": "Havo ancha sovib qoldi-a.",
       "title_ru": "Начало разговора в холода",
       "ru": "Сильно похолодало, да?"
+    },
+    {
+      "id": "jp012",
+      "file": "jp012.m4a",
+      "title": "初雪の知らせ",
+      "ko": "첫눈 왔어요!",
+      "ja": "初雪が降りましたよ！",
+      "sec": 1,
+      "date": "2026-11-24",
+      "cat": [
+        "feeling"
+      ],
+      "title_mn": "Анхны цас",
+      "mn": "Анхны цас орлоо!",
+      "title_uz": "Birinchi qor",
+      "uz": "Birinchi qor yogʻdi!",
+      "title_ru": "Первый снег",
+      "ru": "Выпал первый снег!"
+    },
+    {
+      "id": "jp013",
+      "file": "jp013.m4a",
+      "title": "温かいのを頼む",
+      "ko": "따뜻한 걸로 주세요.",
+      "ja": "温かいのをください。",
+      "sec": 2,
+      "date": "2026-11-27",
+      "cat": [
+        "request"
+      ],
+      "title_mn": "Халууныг нь авъя",
+      "mn": "Халууныг нь өгөөрэй.",
+      "title_uz": "Issigʻini soʻrash",
+      "uz": "Issigʻidan bering.",
+      "title_ru": "Попросить горячее",
+      "ru": "Мне горячее, пожалуйста."
+    },
+    {
+      "id": "jp014",
+      "file": "jp014.m4a",
+      "title": "値段を聞く",
+      "ko": "이거 얼마예요?",
+      "ja": "これ、いくらですか？",
+      "sec": 2,
+      "date": "2026-12-01",
+      "cat": [
+        "ask"
+      ],
+      "title_mn": "Үнэ асуух",
+      "mn": "Энэ хэд вэ?",
+      "title_uz": "Narx soʻrash",
+      "uz": "Bu qancha turadi?",
+      "title_ru": "Спросить цену",
+      "ru": "Сколько это стоит?"
+    },
+    {
+      "id": "jp015",
+      "file": "jp015.m4a",
+      "title": "一緒に写真をお願い",
+      "ko": "같이 사진 찍어도 돼요?",
+      "ja": "一緒に写真を撮ってもいいですか？",
+      "sec": 2,
+      "date": "2026-12-04",
+      "cat": [
+        "request"
+      ],
+      "title_mn": "Хамт зураг авахуулах",
+      "mn": "Хамт зураг авахуулж болох уу?",
+      "title_uz": "Birga suratga tushish",
+      "uz": "Birga suratga tushsak boʻladimi?",
+      "title_ru": "Фото вместе",
+      "ru": "Можно с вами сфотографироваться?"
+    },
+    {
+      "id": "jp016",
+      "file": "jp016.m4a",
+      "title": "聞き返す",
+      "ko": "다시 말해 주시겠어요?",
+      "ja": "もう一度言っていただけますか？",
+      "sec": 2,
+      "date": "2026-12-08",
+      "cat": [
+        "request"
+      ],
+      "title_mn": "Дахин хэлүүлэх",
+      "mn": "Дахиад хэлж өгөхгүй юу?",
+      "title_uz": "Qayta soʻrash",
+      "uz": "Yana bir bor aytib bera olasizmi?",
+      "title_ru": "Переспросить",
+      "ru": "Не могли бы вы повторить?"
+    },
+    {
+      "id": "jp017",
+      "file": "jp017.m4a",
+      "title": "少し待ってもらう",
+      "ko": "잠깐만 기다려 주세요.",
+      "ja": "少々お待ちください。",
+      "sec": 2,
+      "date": "2026-12-11",
+      "cat": [
+        "request"
+      ],
+      "title_mn": "Түр хүлээлгэх",
+      "mn": "Түр хүлээнэ үү.",
+      "title_uz": "Kutib turishni soʻrash",
+      "uz": "Bir daqiqa kutib turing.",
+      "title_ru": "Попросить подождать",
+      "ru": "Подождите минутку, пожалуйста."
+    },
+    {
+      "id": "jp018",
+      "file": "jp018.m4a",
+      "title": "寒い日の別れぎわに",
+      "ko": "감기 조심하세요.",
+      "ja": "風邪に気をつけてくださいね。",
+      "sec": 3,
+      "date": "2026-12-15",
+      "cat": [
+        "care"
+      ],
+      "title_mn": "Хүйтэнд салахдаа",
+      "mn": "Ханиад хүрэхээс болгоомжлоорой.",
+      "title_uz": "Sovuqda xayrlashganda",
+      "uz": "Shamollab qolmang.",
+      "title_ru": "Прощание в холода",
+      "ru": "Берегите себя, не простудитесь."
+    },
+    {
+      "id": "jp019",
+      "file": "jp019.m4a",
+      "title": "年末のお礼",
+      "ko": "올해 정말 고마웠어요.",
+      "ja": "今年は本当にありがとうございました。",
+      "sec": 3,
+      "date": "2026-12-18",
+      "cat": [
+        "thanks"
+      ],
+      "title_mn": "Оны эцсийн талархал",
+      "mn": "Энэ жил үнэхээр баярлалаа.",
+      "title_uz": "Yil yakunida rahmat",
+      "uz": "Bu yil uchun chin dildan rahmat.",
+      "title_ru": "Спасибо за год",
+      "ru": "Спасибо вам огромное за этот год."
     }
   ]
 }
