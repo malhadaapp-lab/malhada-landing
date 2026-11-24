@@ -32,8 +32,15 @@ gtag('consent', 'default', { ad_storage: 'granted', ad_user_data: 'granted', ad_
   var ios = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
   var android = /Android/i.test(ua);
   var play = 'https://play.google.com/store/apps/details?id=com.malhadaapp.malhada&referrer=utm_source%3Dshare';
-  if (ios) location.replace('https://apps.apple.com/app/id6831038450');
-  else if (android) location.replace(play);
+  // [11-24] 휴대폰 자동 이동도 Google Ads 전환 1건으로 셈: 전송이 끝나면(event_callback) 또는 0.3초 뒤 먼저 오는 쪽에 한 번만 이동. gtag가 없거나 막히면 바로 이동
+  var dest = ios ? 'https://apps.apple.com/app/id6831038450' : android ? play : '';
+  if (dest) {
+    var went = false, go = function () { if (went) return; went = true; location.replace(dest); };
+    if (typeof window.gtag === 'function') {
+      try { window.gtag('event', 'conversion', { send_to: 'AW-XXXXXXXXX/LABEL', event_callback: go }); } catch (e) { go(); }
+      setTimeout(go, 300);
+    } else go();
+  }
 })();
 </script>
 <style>
